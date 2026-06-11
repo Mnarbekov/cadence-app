@@ -1,0 +1,32 @@
+{
+  "_disclaimer": "Synthetic demo data only. Generated 2026-06-07. No real activity history. user: demo-user.",
+  "schema": "cadence.program/v1",
+  "date": "2026-04-15",
+  "session": {
+    "type": "lower",
+    "target_session_rpe": 7,
+    "warmup": "back-safe-12-short",
+    "coach_notes": "Lower body strength day. Start light on goblet squats to warm the hips, build into RDLs. Keep back neutral throughout — exhale on effort for the deadlifts.",
+    "movements": [
+      {
+        "name": "Goblet Squat",
+        "sets": 3,
+        "target_reps": "10-12",
+        "target_load_kg": 20
+      },
+      {
+        "name": "Romanian Deadlift",
+        "sets": 3,
+        "target_reps": "8-10",
+        "target_load_kg": 42.5,
+        "is_back_loaded": true
+      },
+      {
+        "name": "Leg Press",
+        "sets": 3,
+        "target_reps": "12",
+        "target_load_kg": 60
+      }
+    ]
+  }
+}
