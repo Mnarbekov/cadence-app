@@ -71,6 +71,7 @@ This repository is a sanitized public showcase. It explains the product pattern 
 
 ## Read more
 
+- **Medium story** — [I used AI to build a training app I would actually use](https://medium.com/@mikhail.narbekov/i-used-ai-to-build-a-training-app-i-would-actually-use-30df337b2d9d)
 - **Case study** — [`docs\case-study.md`](docs\case-study.md)
 - **Architecture notes** — [`docs\architecture.md`](docs\architecture.md)
 - **Sanitization checklist** — [`SANITIZATION.md`](SANITIZATION.md)
