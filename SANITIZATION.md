@@ -13,7 +13,7 @@ Use this checklist before publishing anything from this showcase. The goal is to
 
 - [ ] Private source code copied wholesale from production or personal repos.
 - [ ] Real personal, family, health, finance, journal, schedule, message, or activity-log data.
-- [ ] Health and training inputs used by the coaching loop — including wearable data, blood markers, body metrics, or personal health history. Public demo must replace all of these with clearly synthetic values.
+- [ ] Health and training inputs used by the coaching loop, including wearable data, blood markers, body metrics, or personal health history. Public demo material must replace all of these with clearly synthetic values.
 - [ ] Names, emails, account IDs, browser profiles, notifications, or identifiable screenshots.
 - [ ] Credentials, API keys, tokens, cookies, `.env` files, local config, tenant/app IDs, or service secrets.
 - [ ] Live service URLs, deployment URLs, workflow run links, or private operational endpoints.
@@ -34,10 +34,9 @@ Use this checklist before publishing anything from this showcase. The goal is to
 - [ ] Do not reveal exact folder structures, account providers, resource names, endpoints, or automation details.
 - [ ] Show the privacy boundary as a feature, not an afterthought.
 
-## Snippet and example safety
+## Example-data safety
 
-- [ ] Prefer pseudocode or simplified fixtures.
-- [ ] Keep snippets small and explanatory.
+- [ ] Prefer simplified fixtures.
 - [ ] Remove secrets, endpoints, private paths, real identifiers, and real timestamps.
 - [ ] Use synthetic activity names and synthetic values.
 - [ ] Do not copy full private source files.
@@ -51,11 +50,11 @@ Run a quick text search for obvious leaks, including:
 - `secret`, `token`, `api_key`, `apikey`, `password`, `credential`, `.env`, `client_id`, `tenant`;
 - private names, emails, live URLs, and deployment hostnames.
 
-A search hit is not automatically a blocker, but every hit must be reviewed before release.
+A search hit is not automatically a blocker, but every hit must be checked before release.
 
 ## Public package checklist
 
-- [ ] Review `README.md`, `docs/case-study.md`, and `docs/architecture.md` for private details.
+- [ ] Check `README.md`, `docs/case-study.md`, and `docs/architecture.md` for private details.
 - [ ] Confirm all examples and screenshots use demo data only.
 - [ ] Confirm the project is framed as AI-assisted builder work.
 - [ ] Confirm public-facing files contain no unresolved editorial questions.
@@ -63,4 +62,9 @@ A search hit is not automatically a blocker, but every hit must be reviewed befo
 
 ## Current public package state
 
-This package intentionally contains no screenshots, live links, local paths, credentials, or real activity data. Keep any future additions synthetic, redacted, and aligned with the checklist above.
+This package contains synthetic examples and two approved public-safe visual assets:
+
+- `assets/screenshots/cadence-phone-session.png`
+- `assets/diagrams/cadence-loop.png`
+
+It does not contain private source code, local paths, credentials, real activity data, or snippet files.

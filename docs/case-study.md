@@ -23,7 +23,7 @@ The product constraint was simple: make the useful action easier than skipping i
 
 ## Product principles
 
-1. **The app is the channel, not the coach.** It captures useful truth; the Health Coach AI Agent handles the review loop.
+1. **The app is the channel, not the coach.** It captures useful truth; the Health Coach AI Agent handles the assessment loop.
 2. **Fast capture beats complete capture.** If a field does not help the next decision, it does not belong in the first version.
 3. **Old-but-honest beats blank.** Cached content with a freshness signal is better than an empty screen.
 4. **Private by default.** Public materials use synthetic examples only.
@@ -36,16 +36,18 @@ Cadence is built around a four-step loop:
 1. **The Health Coach AI Agent prepares a plan** from the training context I choose to provide.
 2. **I open Today** to see the current plan.
 3. **I log the session**: completion, effort, notes, and anything that changed.
-4. **The Health Coach AI Agent reviews the record** and writes back the next plan.
+4. **The Health Coach AI Agent assesses the record** and writes back the next plan.
+
+![Cadence phone session](../assets/screenshots/cadence-phone-session.png)
 
 The app has four main surfaces:
 
 - **Today:** current plan, notes, and freshness state.
 - **Log:** quick capture for the session or activity.
-- **History:** review surface for previous records.
+- **History:** prior records without exposing raw private context in this showcase.
 - **Settings:** account, cache, and operational controls away from the main loop.
 
-Behind the scenes, small structured records are the handoff between the phone and the review step. The phone writes predictable records. The coaching loop reads them later and writes back the next plan.
+Behind the scenes, small structured records are the handoff between the phone and the assessment step. The phone writes predictable records. The coaching loop reads them later and writes back the next plan.
 
 ## Where AI helped
 
@@ -86,12 +88,3 @@ This project demonstrates that I can:
 Cadence handles personal training context, so the public version is deliberately separated from the private working system. The showcase explains the product pattern, AI-assisted workflow, and decision-making without exposing real activity records, health details, private notes, account details, or operational paths.
 
 That privacy boundary is part of the product thinking, not a cleanup step at the end. The public materials use synthetic examples so the case study can be useful without turning personal context into portfolio content.
-
-## Public-safe asset examples
-
-Useful companion assets for this showcase include:
-
-- Today screen with a synthetic plan;
-- Log screen with synthetic session capture;
-- History/progress screen using demo data;
-- privacy-boundary diagram.
