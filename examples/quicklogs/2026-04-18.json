@@ -1,0 +1,14 @@
+{
+  "_disclaimer": "Synthetic demo data only. Generated 2026-06-07. No real activity history. user: demo-user.",
+  "schema": "cadence.quicklog/v1",
+  "captured_at": "2026-04-18T07:20:00Z",
+  "kind": "cycling",
+  "duration_min": 35,
+  "metadata": {
+    "indoor": true,
+    "avg_hr_bpm": 138
+  },
+  "rpe": 5,
+  "note": "Easy Zone 2 spin on the indoor trainer. Kept it aerobic — cadence steady throughout.",
+  "app_version": "1.4.2"
+}

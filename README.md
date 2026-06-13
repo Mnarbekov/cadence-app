@@ -2,6 +2,8 @@
 
 A small phone app for home training: open it, see today's plan, do the session, log what happened. The next plan reflects what I actually did.
 
+This repo is a demo-safe version. It explains how the app works and includes example data files, but no real training logs or health information.
+
 ## Why I built it
 
 I train at home, and most fitness apps are either too heavy or built for the gym. I wanted something simple I would genuinely open every day: a clear plan for today, an easy way to log it, and a loop that adjusts to real life instead of a rigid program I'd quietly abandon.
@@ -26,13 +28,15 @@ The phone session and quick-log screen, using demo content.
 
 The loop: plan the week, train, capture the session, adjust the next plan.
 
-## How it works
+## What's in this repo
 
-Cadence is a phone-first app. The plan for the day is ready when I open it, even with a patchy connection. I log the session as I go, and that record becomes the context for the next plan. The idea is a steady, honest loop rather than a big tracking dashboard.
+- `examples/` — example program, session log, check-in, and quick-log files that show how Cadence stores a day's training (all made up).
+- `examples/SCHEMA.md` — a plain description of what each record contains.
+- `docs/architecture.md` — a short walkthrough of how the phone app and the coaching step fit together.
 
 ## Privacy
 
-This public repo uses demo content only. My real training logs and health context stay private and are not included here.
+This is a demo-safe version. My real training logs, notes, and health context stay private and are not in this repo. The example records are invented.
 
 ## Built with AI assistance
 

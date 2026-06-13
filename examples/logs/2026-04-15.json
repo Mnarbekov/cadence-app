@@ -1,0 +1,37 @@
+{
+  "_disclaimer": "Synthetic demo data only. Generated 2026-06-07. No real activity history. user: demo-user.",
+  "schema": "cadence.log/v1",
+  "session_id": "a3f72b1c",
+  "captured_at": "2026-04-15T23:42:00Z",
+  "program_ref": "program/2026/2026-04-15.json",
+  "movements": [
+    {
+      "name": "Goblet Squat",
+      "sets": [
+        { "weight_kg": 20, "reps": 12, "rpe": 6, "pain_flag": null },
+        { "weight_kg": 20, "reps": 11, "rpe": 7, "pain_flag": null },
+        { "weight_kg": 20, "reps": 10, "rpe": 7, "pain_flag": null }
+      ]
+    },
+    {
+      "name": "Romanian Deadlift",
+      "sets": [
+        { "weight_kg": 42.5, "reps": 10, "rpe": 7, "pain_flag": null },
+        { "weight_kg": 42.5, "reps": 9,  "rpe": 7, "pain_flag": null },
+        { "weight_kg": 42.5, "reps": 8,  "rpe": 8, "pain_flag": null }
+      ]
+    },
+    {
+      "name": "Leg Press",
+      "sets": [
+        { "weight_kg": 60, "reps": 12, "rpe": 6, "pain_flag": null },
+        { "weight_kg": 60, "reps": 12, "rpe": 7, "pain_flag": null },
+        { "weight_kg": 60, "reps": 11, "rpe": 7, "pain_flag": null }
+      ]
+    }
+  ],
+  "session_rpe": 7,
+  "note": "Squats felt comfortable. RDLs were solid — kept the back nice and flat. Quads slightly pumped by the leg press finisher.",
+  "duration_min": 48,
+  "app_version": "1.4.2"
+}
